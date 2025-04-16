@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+data/
+Digits_Classifier_HTML/
+MNIST_Handwritten_Digits-STARTER.ipynb
+
+# PyTorch specific
+*.pth.tar
+# Keep saved_model.pth as it's required for submission
+
+# Logs and databases
+*.log
+*.sqlite
